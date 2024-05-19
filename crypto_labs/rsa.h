@@ -22,6 +22,7 @@ private:
     unsigned long long compute_carmichael(unsigned long long p, unsigned long long q);
     unsigned long long mod_inverse(unsigned long long a, unsigned long long m);
     unsigned long long hash_message(const std::string& message);
+    unsigned long long custom_hash(const std::string& message);
     unsigned long long crt_decrypt(unsigned long long cipher_text);
 
     unsigned long long p, q, n, e, d;

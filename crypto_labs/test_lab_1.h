@@ -1,5 +1,5 @@
-#ifndef IO_UTILS_H
-#define IO_UTILS_H
+#ifndef TEST_LAB_1_H
+#define TEST_LAB_1_H
 
 void run_prepared_scenario();
 void modular_exponentiation_test();

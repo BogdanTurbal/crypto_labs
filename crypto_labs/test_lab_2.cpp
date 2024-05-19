@@ -1,7 +1,8 @@
-#include "prime_utils.h"
+
 #include <iostream>
 #include <chrono>
 
+#include "prime_utils.h"
 #include "test_lab_2.h"
 #include "rsa.h"
 

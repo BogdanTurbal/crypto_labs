@@ -1,6 +1,6 @@
-#include "prime_utils.h"
 #include <iostream>
 
+#include "prime_utils.h"
 #include "test_lab_1.h"
 #include "test_lab_2.h"
 
@@ -13,6 +13,7 @@ int test_lab_2(){
 
     return 0;
 }
+
 
 int test_lab_1(){
     while (true) {
