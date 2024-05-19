@@ -1,7 +1,8 @@
 #include "prime_utils.h"
 #include "test_lab_1.h"
+#include <iostream>
 
-int main() {
+int test_lab_1(){
     while (true) {
         std::cout << "Choose an option:\n";
         std::cout << "1. Run prepared scenario\n";
@@ -12,10 +13,11 @@ int main() {
         std::cout << "6. Find Primes Test\n";
         std::cout << "7. Exit\n";
         std::cout << "Enter your choice: ";
-
+        
+        
         int choice;
         std::cin >> choice;
-
+        
         switch (choice) {
             case 1:
                 run_prepared_scenario();
@@ -41,14 +43,19 @@ int main() {
                 std::cout << "Invalid choice. Please try again.\n";
                 break;
         }
-
+        
         std::cout << "\nDo you want to continue? (y/n): ";
         char cont;
         std::cin >> cont;
         if (cont != 'y' && cont != 'Y') {
             break;
         }
+        
     }
-
     return 0;
+}
+int main() {
+    
+    int res = test_lab_1();
+    return res;
 }

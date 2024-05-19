@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9A97CCAC2BFA5C2B00E33420 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A97CCAB2BFA5C2B00E33420 /* main.cpp */; };
+		9A97CCC02BFA687700E33420 /* prime_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A97CCBF2BFA687700E33420 /* prime_utils.cpp */; };
+		9A97CCC32BFA6AA200E33420 /* test_lab_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A97CCC22BFA6AA200E33420 /* test_lab_1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9A97CCA82BFA5C2B00E33420 /* crypto_labs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crypto_labs; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A97CCAB2BFA5C2B00E33420 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A97CCBE2BFA683B00E33420 /* prime_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prime_utils.h; sourceTree = "<group>"; };
+		9A97CCBF2BFA687700E33420 /* prime_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = prime_utils.cpp; sourceTree = "<group>"; };
+		9A97CCC12BFA6A0900E33420 /* test_lab_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_lab_1.h; sourceTree = "<group>"; };
+		9A97CCC22BFA6AA200E33420 /* test_lab_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_lab_1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		9A97CCAA2BFA5C2B00E33420 /* crypto_labs */ = {
 			isa = PBXGroup;
 			children = (
+				9A97CCC22BFA6AA200E33420 /* test_lab_1.cpp */,
 				9A97CCAB2BFA5C2B00E33420 /* main.cpp */,
+				9A97CCBE2BFA683B00E33420 /* prime_utils.h */,
+				9A97CCBF2BFA687700E33420 /* prime_utils.cpp */,
+				9A97CCC12BFA6A0900E33420 /* test_lab_1.h */,
 			);
 			path = crypto_labs;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A97CCC32BFA6AA200E33420 /* test_lab_1.cpp in Sources */,
 				9A97CCAC2BFA5C2B00E33420 /* main.cpp in Sources */,
+				9A97CCC02BFA687700E33420 /* prime_utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
