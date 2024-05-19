@@ -5,4 +5,4 @@
 //  Created by Bohdan Turbal on 19.05.2024.
 //
 
-#include <stdio.h>
+#include "prime_utils.hpp"
