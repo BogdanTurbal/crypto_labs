@@ -1,6 +1,18 @@
 #include "prime_utils.h"
-#include "test_lab_1.h"
 #include <iostream>
+
+#include "test_lab_1.h"
+#include "test_lab_2.h"
+
+int test_lab_2(){
+    int bit_length;
+    std::cout << "Enter the bit length of primes for RSA: ";
+    std::cin >> bit_length;
+
+    simulate_message_exchange(bit_length);
+
+    return 0;
+}
 
 int test_lab_1(){
     while (true) {
@@ -54,8 +66,11 @@ int test_lab_1(){
     }
     return 0;
 }
+
+
 int main() {
     
-    int res = test_lab_1();
+    //int res = test_lab_1();
+    int res = test_lab_2();
     return res;
 }

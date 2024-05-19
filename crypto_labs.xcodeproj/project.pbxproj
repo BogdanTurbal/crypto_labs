@@ -10,6 +10,8 @@
 		9A97CCAC2BFA5C2B00E33420 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A97CCAB2BFA5C2B00E33420 /* main.cpp */; };
 		9A97CCC02BFA687700E33420 /* prime_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A97CCBF2BFA687700E33420 /* prime_utils.cpp */; };
 		9A97CCC32BFA6AA200E33420 /* test_lab_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A97CCC22BFA6AA200E33420 /* test_lab_1.cpp */; };
+		9ABC171B2BFA778D00DD29B4 /* rsa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC171A2BFA778D00DD29B4 /* rsa.cpp */; };
+		9ABC171E2BFA785500DD29B4 /* test_lab_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC171D2BFA785500DD29B4 /* test_lab_2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		9A97CCBF2BFA687700E33420 /* prime_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = prime_utils.cpp; sourceTree = "<group>"; };
 		9A97CCC12BFA6A0900E33420 /* test_lab_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_lab_1.h; sourceTree = "<group>"; };
 		9A97CCC22BFA6AA200E33420 /* test_lab_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_lab_1.cpp; sourceTree = "<group>"; };
+		9ABC17192BFA777300DD29B4 /* rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		9ABC171A2BFA778D00DD29B4 /* rsa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rsa.cpp; sourceTree = "<group>"; };
+		9ABC171C2BFA782C00DD29B4 /* test_lab_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_lab_2.h; sourceTree = "<group>"; };
+		9ABC171D2BFA785500DD29B4 /* test_lab_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_lab_2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +69,15 @@
 		9A97CCAA2BFA5C2B00E33420 /* crypto_labs */ = {
 			isa = PBXGroup;
 			children = (
+				9ABC171C2BFA782C00DD29B4 /* test_lab_2.h */,
+				9ABC17192BFA777300DD29B4 /* rsa.h */,
 				9A97CCC22BFA6AA200E33420 /* test_lab_1.cpp */,
 				9A97CCAB2BFA5C2B00E33420 /* main.cpp */,
 				9A97CCBE2BFA683B00E33420 /* prime_utils.h */,
 				9A97CCBF2BFA687700E33420 /* prime_utils.cpp */,
 				9A97CCC12BFA6A0900E33420 /* test_lab_1.h */,
+				9ABC171A2BFA778D00DD29B4 /* rsa.cpp */,
+				9ABC171D2BFA785500DD29B4 /* test_lab_2.cpp */,
 			);
 			path = crypto_labs;
 			sourceTree = "<group>";
@@ -130,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A97CCC32BFA6AA200E33420 /* test_lab_1.cpp in Sources */,
+				9ABC171E2BFA785500DD29B4 /* test_lab_2.cpp in Sources */,
 				9A97CCAC2BFA5C2B00E33420 /* main.cpp in Sources */,
+				9ABC171B2BFA778D00DD29B4 /* rsa.cpp in Sources */,
 				9A97CCC02BFA687700E33420 /* prime_utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
